@@ -1,0 +1,9 @@
+package signupDao;
+
+import com.Dto.SignUpDto;
+
+public interface singupDao {
+
+	
+	void saveUser(SignUpDto SignUpDto);
+}

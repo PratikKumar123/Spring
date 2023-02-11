@@ -1,0 +1,63 @@
+package com.Models;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
+public class Kidsproduct {
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	private int productId;
+	private String pname;
+	private String pdec;
+	private int pprice;
+	private String purl;
+	
+	public int getProductId() {
+		return productId;
+	}
+	public void setProductId(int productId) {
+		this.productId = productId;
+	}
+	public String getPname() {
+		return pname;
+	}
+	public void setPname(String pname) {
+		this.pname = pname;
+	}
+	public String getPdec() {
+		return pdec;
+	}
+	public void setPdec(String pdec) {
+		this.pdec = pdec;
+	}
+	public int getPprice() {
+		return pprice;
+	}
+	public void setPprice(int pprice) {
+		this.pprice = pprice;
+	}
+	public String getPurl() {
+		return purl;
+	}
+	public void setPurl(String purl) {
+		this.purl = purl;
+	}
+	public Kidsproduct(int productId, String pname, String pdec, int pprice, String purl) {
+		super();
+		this.productId = productId;
+		this.pname = pname;
+		this.pdec = pdec;
+		this.pprice = pprice;
+		this.purl = purl;
+	}
+	@Override
+	public String toString() {
+		return "Kidsproduct [productId=" + productId + ", pname=" + pname + ", pdec=" + pdec + ", pprice=" + pprice
+				+ ", purl=" + purl + "]";
+	}
+	
+	
+}

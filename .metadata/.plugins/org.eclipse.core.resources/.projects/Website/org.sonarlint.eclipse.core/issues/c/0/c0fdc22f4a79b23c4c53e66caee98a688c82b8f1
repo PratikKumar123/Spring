@@ -1,0 +1,9 @@
+
+}
+java:S4488"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(äæ›8¥Ãú“ß0HƒPRMINORZ
+CODE_SMELL
+Z
+java:S1481'"'Remove this unused "id" local variable.(“„ƒ8¡İ‰ˆà0H…PRMINORZ
+CODE_SMELL
+y
+java:S4684"@Replace this persistent entity with a simple POJO or DTO object.(€óáÜ8¦Ãµ®á0H‡PRCRITICALZVULNERABILITY

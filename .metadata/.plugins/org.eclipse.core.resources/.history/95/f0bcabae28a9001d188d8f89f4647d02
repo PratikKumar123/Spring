@@ -1,0 +1,32 @@
+package com.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
+
+import com.Dto.SignUpDto;
+
+@Controller
+public class LoginController {
+
+	
+	@GetMapping("/myLogin")
+	public String viewLogin() {
+		
+		return "login";
+	}
+	
+	
+	@GetMapping("/signup")
+	public String viewsignup(@ModelAttribute("signupdto") SignUpDto signUpDto ) {
+		
+		return "signup";
+	}
+	
+	@PostMapping("/processsignup")
+	public String processviewsignup( SignUpDto signUpDto ) {
+		System.out.println(signUpDto);
+		return "redirect:/myLogin";
+	}
+}

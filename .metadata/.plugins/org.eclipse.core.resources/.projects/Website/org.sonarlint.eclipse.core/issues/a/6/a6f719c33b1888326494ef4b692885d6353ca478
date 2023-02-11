@@ -1,0 +1,15 @@
+
+z
+java:S2259'"IA "NullPointerException" could be thrown; "cartProduct" is nullable here.(œ‰úÿÿÿÿ8¦Æ‰»á0HÚORMAJORZBUG
+`
+java:S1874"-Remove this use of "Query"; it is deprecated.(µŒØå8…²ë¶á0HŞORMINORZ
+CODE_SMELL
+g
+java:S3740."/Provide the parametrized type for this generic.(ïÔ—şÿÿÿÿ8Ç«³×á0HßORMAJORZ
+CODE_SMELL
+e
+java:S1874."-Remove this use of "Query"; it is deprecated.(ïÔ—şÿÿÿÿ8È«³×á0HàORMINORZ
+CODE_SMELL
+b
+java:S3740"/Provide the parametrized type for this generic.(µŒØå8…²ë¶á0HáORMAJORZ
+CODE_SMELL

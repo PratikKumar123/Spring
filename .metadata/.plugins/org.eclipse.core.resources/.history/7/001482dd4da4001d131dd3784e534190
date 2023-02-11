@@ -1,0 +1,54 @@
+package com.dao.impl;
+
+import java.util.List;
+
+import javax.transaction.Transactional;
+
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.orm.hibernate5.HibernateTemplate;
+import org.springframework.stereotype.Repository;
+
+import com.Models.Item;
+import com.dao.CartItemDao;
+@Repository
+@Transactional
+public class CartItemImpl implements CartItemDao {
+	@Autowired
+	private SessionFactory sessionFactory;
+	@Autowired
+	private HibernateTemplate hibernateTemplate;
+	public void removeCartItem(Item item) {
+		Session session = sessionFactory.getCurrentSession();
+		session.delete(item);
+		session.flush();
+	}
+
+	public Item getCartItemByProductId(int productId) {
+		Session session = sessionFactory.getCurrentSession();
+		Query query = session.createQuery("from Item where productid ="+productId);
+		session.flush();
+
+		return (Item) query.uniqueResult();
+}
+
+	public void updatequan(int id, int quantity) {
+		Item cartProduct = hibernateTemplate.get(Item.class, id);
+		cartProduct.setQuantity(quantity);
+		this.hibernateTemplate.update(cartProduct);
+		
+	}
+	
+	public List<Item> getItemById(int userid){
+		Session session = sessionFactory.getCurrentSession();
+		Query query = session.createQuery("from Item where userId ="+productId);
+		session.flush();
+		
+		return query.getResultList();
+	}
+
+	
+
+}

@@ -1,0 +1,9 @@
+
+g	java:S125"<This block of commented-out lines of code should be removed.(©Ğì¦HÅ$RMAJORZ
+CODE_SMELL
+R
+java:S14817"&Remove this unused "r" local variable.(Ç™é±HË$RMINORZ
+CODE_SMELL
+|
+java:S1128	"KRemove this unused import 'com.mysql.cj.x.protobuf.MysqlxDatatypes.Scalar'.(™‰õâıÿÿÿÿHÌ$RMINORZ
+CODE_SMELL

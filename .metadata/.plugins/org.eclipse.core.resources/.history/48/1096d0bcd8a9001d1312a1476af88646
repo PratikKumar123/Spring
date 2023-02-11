@@ -1,0 +1,11 @@
+package signupDao;
+
+import org.springframework.stereotype.Service;
+
+import com.Dto.SignUpDto;
+@Service
+public interface SignUpDaoInterface {
+
+	
+	void saveUser(SignUpDto SignUpDto);
+}

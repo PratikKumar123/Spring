@@ -1,0 +1,22 @@
+package com.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+@Controller
+public class HelloWordCont {
+
+	@GetMapping("/hello")
+	public String viewHello() {
+		
+		return "Hello";
+	}
+	
+	@ResponseBody
+	@GetMapping("/pratik")
+	public String hiii() {
+		
+		return "Hiii pratik ";
+	}
+}

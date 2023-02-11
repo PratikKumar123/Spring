@@ -1,0 +1,14 @@
+
+‘
+java:S1128"YRemove this unused import 'org.springframework.security.crypto.password.PasswordEncoder'.(‰¡ßáÿÿÿÿÿ8íÜ§ã0HZRMINORZ
+CODE_SMELL
+•
+java:S1128
+"]Remove this unused import 'org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder'.(åÅÚ…ûÿÿÿÿ8íÜ§ã0HƒZRMINORZ
+CODE_SMELL
+‰
+java:S1128"]Remove this unused import 'org.springframework.security.crypto.password.NoOpPasswordEncoder'.(ƒ»ÅÅHÿYRMINORZ
+CODE_SMELL
+œ
+java:S1488 "dImmediately return this expression instead of assigning it to the temporary variable "jdbcTemplate".(Àéûÿÿÿÿ8¤‡™Ûã0H§[RMINORZ
+CODE_SMELL

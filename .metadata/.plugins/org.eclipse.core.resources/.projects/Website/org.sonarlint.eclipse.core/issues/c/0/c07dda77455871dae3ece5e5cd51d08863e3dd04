@@ -1,0 +1,19 @@
+
+–
+java:S1488&"cImmediately return this expression instead of assigning it to the temporary variable "productList".(ä•œı8£ˆ€Üà0HÒORMINORZ
+CODE_SMELL
+“
+java:S1488 "[Immediately return this expression instead of assigning it to the temporary variable "pro".(—·½Şûÿÿÿÿ8´®¾Ûà0HÕORMINORZ
+CODE_SMELL
+b
+java:S3740%"/Provide the parametrized type for this generic.(¾ÀØ÷8²‚ÊÛà0HÑORMAJORZ
+CODE_SMELL
+e
+java:S1905 "-Remove this unnecessary cast to "AddProduct".(—·½Şûÿÿÿÿ8´®¾Ûà0HØORMINORZ
+CODE_SMELL
+`
+java:S1874%"-Remove this use of "Query"; it is deprecated.(¾ÀØ÷8²‚ÊÛà0HĞORMINORZ
+CODE_SMELL
+`
+java:S18745"-Remove this use of "Query"; it is deprecated.(Ä»úÓ8ºÁ·â0H®URMINORZ
+CODE_SMELL

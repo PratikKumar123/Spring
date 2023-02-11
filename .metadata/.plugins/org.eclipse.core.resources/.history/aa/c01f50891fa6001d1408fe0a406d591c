@@ -1,0 +1,59 @@
+package com.Models;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
+public class Kidsproduct {
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	private int kproductId;
+	private String kname;
+	private String kdec;
+	private int kprice;
+	private String kurl;
+	public int getKproductId() {
+		return kproductId;
+	}
+	public void setKproductId(int kproductId) {
+		this.kproductId = kproductId;
+	}
+	public String getKname() {
+		return kname;
+	}
+	public void setKname(String kname) {
+		this.kname = kname;
+	}
+	public String getKdec() {
+		return kdec;
+	}
+	public void setKdec(String kdec) {
+		this.kdec = kdec;
+	}
+	public int getKprice() {
+		return kprice;
+	}
+	public void setKprice(int kprice) {
+		this.kprice = kprice;
+	}
+	public String getKurl() {
+		return kurl;
+	}
+	public void setKurl(String kurl) {
+		this.kurl = kurl;
+	}
+	public Kidsproduct(int kproductId, String kname, String kdec, int kprice, String kurl) {
+		super();
+		this.kproductId = kproductId;
+		this.kname = kname;
+		this.kdec = kdec;
+		this.kprice = kprice;
+		this.kurl = kurl;
+	}
+	
+	
+	
+	
+}

@@ -1,0 +1,10 @@
+
+›
+java:S1488%"cImmediately return this expression instead of assigning it to the temporary variable "productList".(“«ïÿýÿÿÿÿ8¸¥¹µá0HâORMINORZ
+CODE_SMELL
+a
+java:S3740$"/Provide the parametrized type for this generic.(ò÷ƒB8¸¥¹µá0HåORMAJORZ
+CODE_SMELL
+_
+java:S1874$"-Remove this use of "Query"; it is deprecated.(ò÷ƒB8¸¥¹µá0HæORMINORZ
+CODE_SMELL

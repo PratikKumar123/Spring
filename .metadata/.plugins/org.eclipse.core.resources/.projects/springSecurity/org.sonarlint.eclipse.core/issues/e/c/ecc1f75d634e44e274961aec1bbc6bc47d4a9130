@@ -1,0 +1,9 @@
+
+s	java:S125"<This block of commented-out lines of code should be removed.(Ä‚•Êùÿÿÿÿ8 Ğ½§ã0HôYRMAJORZ
+CODE_SMELL
+‘
+java:S1128"YRemove this unused import 'org.springframework.security.crypto.password.PasswordEncoder'.(‰¡ßáÿÿÿÿÿ8ò˜ß§ã0HòYRMINORZ
+CODE_SMELL
+s
+java:S1874";Remove this use of "NoOpPasswordEncoder"; it is deprecated.(¢Ì®‘ûÿÿÿÿ8ÀßØã0H[RMINORZ
+CODE_SMELL
